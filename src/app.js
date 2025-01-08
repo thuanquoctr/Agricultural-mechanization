@@ -14,7 +14,7 @@ app.use(express.urlencoded());
 require('./dbs/init.mongodb');
 // const { checkOverload } = require('./helpers/check.connect');
 // checkOverload();
-//init routers
-// app.use('/', require('./routers'));
+//init routes
+// app.use('/', require('./routes'));
 //handling error
 module.exports = app;
